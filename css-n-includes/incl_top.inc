@@ -110,6 +110,7 @@ a:active {} /* requires a blank style for :active to stop it being buggy */
 	<li><a href="/tools/software.shtml"><span class="item">SBN Tools</span></a></li>
 	<li><a href="https://pds.nasa.gov/tools/tool-registry/" onclick="this.target='_blank'" class="external"><span class="item">PDS Tools Registry</span></a></li>
 	<li><a href="https://catch.astro.umd.edu/"><span class="item">CATCH</span></a></li>
+	<li><a href="https://maqi.astro.umd.edu//"><span class="item">MAQI</span></a></li>
 	<li><a href="https://olaf.psi.edu/"><span class="item">OLAF</span></a></li>
 	<li><a href="https://sbnapps.psi.edu/ferret/"><span class="item">Data Ferret</span></a></li>
 	<li><a href="http://sbib.psi.edu/"><span class="item">Small Bodies Image Browser</span></a></li>
