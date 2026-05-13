@@ -46,6 +46,15 @@ ALL of the head, style links, header and menu code is in the include. Edit that 
 <h2>New @ SBN</h2>
 <ul class="news">
 
+<!-- 2026.05.13 -->
+<li><span class="date">2026.05.13</span> New Horizons
+<ul>
+<li><a href="/holdings/pds4-nh_documents-v4.4/SUPPORT/dataset.shtml">New Horizons Mission Instrument-Specific and Mission-Wide Documents v4.4</a> <code>urn:nasa:pds:nh_documents::4.4</code>
+	<ul>
+	<li><a href="/holdings/pds4-nh_documents:mission-v3.0/SUPPORT/dataset.shtml">New Horizons Mission Documents v3.0</a> <code>urn:nasa:pds:nh_documents:mission::3.0</code></li>
+	</ul></li>
+</ul></li>
+
 <!-- 2026.04.17 -->
 <li><span class="date">2026.04.17</span> New Horizons LEISA migrated
 	<ul>

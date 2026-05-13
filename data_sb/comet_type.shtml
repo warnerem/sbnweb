@@ -19,6 +19,7 @@ ALL of the head, style links, header and menu code is in the include. Edit that 
 <!--
 ===========================================================================
 EDIT HISTORY:
++ 2026-05-13 EMW	migration for the NH mission::3.0
 + 2026-04-01 EMW	replaced Lucy instrument collections with Lucy instrument bundles
 + 2026-03-16 EMW	migrated (NH PEPSSI) (email sent on 11 Mar, but completed 16 Mar)
 + 2026-02-26 EMW	added ATLAS doc collection to Misc; migrated NH SDC, REX
@@ -1476,7 +1477,7 @@ EDIT HISTORY:
 <li><a href="/holdings/pds4-dart_teleobs:document_lco-v1.0/SUPPORT/dataset.shtml">DART Las Campanas Observatory Telescopic Observations Documentation Collection</a> <code>urn:nasa:pds:dart_teleobs:document_lco::1.0</code></li>
 <li><a href="/holdings/pds4-dart_teleobs:document_lcogt-v1.0/SUPPORT/dataset.shtml">DART Las Cumbres Observatory 1.0m Telescope Documentation Collection</a> <code>urn:nasa:pds:dart_teleobs:document_lcogt::1.0</code></li>
 <li><a href="/holdings/pds4-dart_teleobs:document_mro-v1.0/SUPPORT/dataset.shtml">DART Magdalena Ridge Observatory 2.4m Telescope Documentation Collection</a> <code>urn:nasa:pds:dart_teleobs:document_mro::1.0</code></li>
-<li><a href="/holdings/pds4-nh_documents-v4.3/SUPPORT/dataset.shtml">New Horizons Mission Instrument-Specific and Mission-Wide Documents v4.3</a> <code>urn:nasa:pds:nh_documents::4.3</code></li>
+<li><a href="/holdings/pds4-nh_documents-v4.4/SUPPORT/dataset.shtml">New Horizons Mission Instrument-Specific and Mission-Wide Documents v4.4</a> <code>urn:nasa:pds:nh_documents::4.4</code></li>
 <li><a href="/holdings/pds4-lucy.llorri:document-v2.0/SUPPORT/dataset.shtml">Lucy L'LORRI Document Collection v2.0</a> <code>urn:nasa:pds:lucy.llorri:document::2.0</code></li>
 <li><a href="/holdings/pds4-lucy.leisa:document-v2.0/SUPPORT/dataset.shtml">Lucy L'Ralph LEISA Document Collection v2.0</a> <code>urn:nasa:pds:lucy.leisa:document::2.0</code></li>
 <li><a href="/holdings/pds4-lucy.mvic:document-v2.0/SUPPORT/dataset.shtml">Lucy L'Ralph MVIC Document Collection v2.0</a> <code>urn:nasa:pds:lucy.mvic:document::2.0</code></li>
