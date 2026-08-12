@@ -19,6 +19,7 @@ ALL of the head, style links, header and menu code is in the include. Edit that 
 <!--
 ===========================================================================
 EDIT HISTORY:
++ 2026-08-10 EMW	(08-12) LORRI PDS3 to PDS4 conversion per TB email
 + 2026-07-15 EMW	(07-14) MVIC PDS3 to PDS4 migration per TB email
 + 2026-06-25 EMW	NH migration per TB email
 + 2026-04-17 EMW	migrated (LEISA) under 132524 APL
@@ -481,8 +482,8 @@ EDIT HISTORY:
 <a name="5145_Pholus"></a>
 <h2>(5145)&nbsp;Pholus</h2>
 <ul>
-<li><a href="/holdings/nh-x-lorri-2-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-LORRI-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-KEMCRUISE1-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_cal::1.0</code></li>
 </ul>
 
 <!-- Target Data ======================================================== -->
@@ -505,8 +506,8 @@ EDIT HISTORY:
 <a name="10199_Chariklo"></a>
 <h2>(10199)&nbsp;Chariklo</h2>
 <ul>
-<li><a href="/holdings/nh-x-lorri-2-plutocruise-v2.0/dataset.shtml">New Horizons LORRI Pluto Cruise Raw Data v2.0</a></li><!-- NH-X-LORRI-2-PLUTOCRUISE-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-plutocruise-v2.0/dataset.shtml">New Horizons LORRI Pluto Cruise Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-PLUTOCRUISE-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:plutocruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:plutocruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:plutocruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:plutocruise_cal::1.0</code></li>
 </ul>
 
 <!-- Target Data ======================================================== -->
@@ -550,8 +551,8 @@ EDIT HISTORY:
 <a name="38628_Huya"></a>
 <h2>(38628)&nbsp;Huya</h2>
 <ul>
-<li><a href="/holdings/nh-x-lorri-2-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-LORRI-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-KEMCRUISE1-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_cal::1.0</code></li>
 </ul>
 
 <!-- Target Data ======================================================== -->
@@ -560,8 +561,8 @@ EDIT HISTORY:
 <ul>
 <li><a href="/holdings/pds4-nh_lorri:pluto_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Encounter Raw Data</a> <code>urn:nasa:pds:nh_lorri:pluto_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_lorri:pluto_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Encounter Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:pluto_cal::1.0</code></li>
-<li><a href="/holdings/nh-x-lorri-2-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-LORRI-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-KEMCRUISE1-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_lorri:kem1_raw-v2.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Encounter Raw Data v2.0</a> <code>urn:nasa:pds:nh_lorri:kem1_raw::2.0</code></li>
 <li><a href="/holdings/pds4-nh_lorri:kem1_cal-v2.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Encounter Calibrated Data v2.0</a> <code>urn:nasa:pds:nh_lorri:kem1_cal::2.0</code></li>
 </ul>
@@ -644,8 +645,8 @@ EDIT HISTORY:
 <a name="119951_2002KX14"></a>
 <h2>(119951)&nbsp;2002&nbsp;KX14</h2>
 <ul>
-<li><a href="/holdings/nh-x-lorri-2-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-LORRI-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-KEMCRUISE1-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_cal::1.0</code></li>
 </ul>
 
 <!-- Target Data ======================================================== -->
@@ -666,8 +667,8 @@ EDIT HISTORY:
 <li><a href="/holdings/pds4-nh_alice:pluto_cal-v1.0/SUPPORT/dataset.shtml">New Horizons Alice Pluto Encounter Calibrated Data</a> <code>urn:nasa:pds:nh_alice:pluto_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_leisa:pluto_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LEISA Pluto Encounter Raw Data</a> <code>urn:nasa:pds:nh_leisa:pluto_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_leisa:pluto_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LEISA Pluto Encounter Calibrated Data</a> <code>urn:nasa:pds:nh_leisa:pluto_cal::1.0</code></li>
-<li><a href="/holdings/nh-x-lorri-2-plutocruise-v2.0/dataset.shtml">New Horizons LORRI Pluto Cruise Raw Data v2.0</a></li><!-- NH-X-LORRI-2-PLUTOCRUISE-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-plutocruise-v2.0/dataset.shtml">New Horizons LORRI Pluto Cruise Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-PLUTOCRUISE-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:plutocruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:plutocruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:plutocruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:plutocruise_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_lorri:pluto_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Encounter Raw Data</a> <code>urn:nasa:pds:nh_lorri:pluto_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_lorri:pluto_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Encounter Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:pluto_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_mvic:pluto_raw-v1.0/SUPPORT/dataset.shtml">New Horizons MVIC Pluto Encounter Raw Data</a> <code>urn:nasa:pds:nh_mvic:pluto_raw::1.0</code></li>
@@ -708,10 +709,10 @@ EDIT HISTORY:
 <a name="136108_Haumea"></a>
 <h2>(136108)&nbsp;Haumea</h2>
 <ul>
-<li><a href="/holdings/nh-x-lorri-2-plutocruise-v2.0/dataset.shtml">New Horizons LORRI Pluto Cruise Raw Data v2.0</a></li><!-- NH-X-LORRI-2-PLUTOCRUISE-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-plutocruise-v2.0/dataset.shtml">New Horizons LORRI Pluto Cruise Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-PLUTOCRUISE-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-2-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-LORRI-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-KEMCRUISE1-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:plutocruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:plutocruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:plutocruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:plutocruise_cal::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_lorri:kem1_raw-v2.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Encounter Raw Data v2.0</a> <code>urn:nasa:pds:nh_lorri:kem1_raw::2.0</code></li>
 <li><a href="/holdings/pds4-nh_lorri:kem1_cal-v2.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Encounter Calibrated Data v2.0</a> <code>urn:nasa:pds:nh_lorri:kem1_cal::2.0</code></li>
 </ul>
@@ -728,10 +729,10 @@ EDIT HISTORY:
 <a name="136472_Makemake"></a>
 <h2>(136472)&nbsp;Makemake</h2>
 <ul>
-<li><a href="/holdings/nh-x-lorri-2-plutocruise-v2.0/dataset.shtml">New Horizons LORRI Pluto Cruise Raw Data v2.0</a></li><!-- NH-X-LORRI-2-PLUTOCRUISE-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-plutocruise-v2.0/dataset.shtml">New Horizons LORRI Pluto Cruise Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-PLUTOCRUISE-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-2-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-LORRI-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-KEMCRUISE1-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:plutocruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:plutocruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:plutocruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:plutocruise_cal::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_cal::1.0</code></li>
 </ul>
 
 <!-- Target Data ======================================================== -->
@@ -775,8 +776,8 @@ EDIT HISTORY:
 <ul>
 <li><a href="/holdings/pds4-nh_lorri:pluto_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Encounter Raw Data</a> <code>urn:nasa:pds:nh_lorri:pluto_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_lorri:pluto_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Encounter Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:pluto_cal::1.0</code></li>
-<li><a href="/holdings/nh-x-lorri-2-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-LORRI-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-KEMCRUISE1-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_lorri:kem1_raw-v2.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Encounter Raw Data v2.0</a> <code>urn:nasa:pds:nh_lorri:kem1_raw::2.0</code></li>
 <li><a href="/holdings/pds4-nh_lorri:kem1_cal-v2.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Encounter Calibrated Data v2.0</a> <code>urn:nasa:pds:nh_lorri:kem1_cal::2.0</code></li>
 </ul>
@@ -785,8 +786,8 @@ EDIT HISTORY:
 <a name="486958_Arrokoth"></a>
 <h2>(486958)&nbsp;Arrokoth&nbsp;(2014&nbsp;MU69)</h2>
 <ul>
-<li><a href="/holdings/nh-x-lorri-2-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-LORRI-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-KEMCRUISE1-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_mvic:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons MVIC KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_mvic:kem1cruise_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_mvic:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons MVIC KEM1 Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_mvic:kem1cruise_cal::1.0</code></li>
 
@@ -811,8 +812,8 @@ EDIT HISTORY:
 <a name="516977_2012HZ84"></a>
 <h2>(516977)&nbsp;2012&nbsp;HZ84</h2>
 <ul>
-<li><a href="/holdings/nh-x-lorri-2-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-LORRI-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-KEMCRUISE1-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_cal::1.0</code></li>
 </ul>
 
 <!-- Target Data ======================================================== -->
@@ -843,8 +844,8 @@ EDIT HISTORY:
 <a name="_2011HJ103"></a>
 <h2>2011&nbsp;HJ103</h2>
 <ul>
-<li><a href="/holdings/nh-x-lorri-2-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-LORRI-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-KEMCRUISE1-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_cal::1.0</code></li>
 </ul>
 
 <!-- Target Data ======================================================== -->
@@ -899,16 +900,16 @@ EDIT HISTORY:
 <a name="_2012HE85"></a>
 <h2>2012&nbsp;HE85</h2>
 <ul>
-<li><a href="/holdings/nh-x-lorri-2-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-LORRI-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-KEMCRUISE1-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_cal::1.0</code></li>
 </ul>
 
 <!-- Target Data ======================================================== -->
 <a name="_2014OE394"></a>
 <h2>2014&nbsp;OE394</h2>
 <ul>
-<li><a href="/holdings/nh-x-lorri-2-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-LORRI-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-KEMCRUISE1-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:kem1cruise_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_lorri:kem1_raw-v2.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Encounter Raw Data v2.0</a> <code>urn:nasa:pds:nh_lorri:kem1_raw::2.0</code></li>
 <li><a href="/holdings/pds4-nh_lorri:kem1_cal-v2.0/SUPPORT/dataset.shtml">New Horizons LORRI KEM1 Encounter Calibrated Data v2.0</a> <code>urn:nasa:pds:nh_lorri:kem1_cal::2.0</code></li>
 </ul>

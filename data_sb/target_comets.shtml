@@ -22,8 +22,8 @@ ALL of the head, style links, header and menu code is in the include. Edit that 
 <h2>Targets</h2>
 <ul>
 <li class="list"><a href="#SOHO">SOHO Comet Sungrazers</a></li>
-<li class="list"><a href="#Surveys">Surveys</a><br /><br /></li>
-<li class="list"><a href="#003I">3I/2025 N1 (ATLAS)</a><br /><br /></li>
+<li class="list"><a href="#Surveys">Surveys</a><br><br></li>
+<li class="list"><a href="#003I">3I/2025 N1 (ATLAS)</a><br><br></li>
 <li class="list"><a href="#001P">1P/1682 Q1 (Halley&nbsp;1)</a></li>
 <li class="list"><a href="#002P">2P/1818 W1 (Encke&nbsp;1)</a></li>
 <li class="list"><a href="#004P">4P/1843 W1 (Faye&nbsp;1)</a></li>
@@ -251,8 +251,8 @@ EDIT HISTORY:
 <a name="top"></a>
 <h1>SBN Data by Target Type: Comets</h1>
 <p>Use the menu at right to jump to a specific comet that has been the target of a small bodies mission or has been extensively observed through a coordinated campaign. There are also a <a href="#Surveys">number of surveys</a> that may have an observation of a comet that is not in the list.
-<br />You can also use the SBN Ferret: <form id="ferret_search" name="ferret_search" action="https://sbnapps.psi.edu/ferret/SimpleSearch/results.action" method="post">
-<br /><label for="targetName">Target (partial) name:</label>
+<br>You can also use the SBN Ferret: <form id="ferret_search" name="ferret_search" action="https://sbnapps.psi.edu/ferret/SimpleSearch/results.action" method="post">
+<br><label for="targetName">Target (partial) name:</label>
 <input type="text" name="targetName" id="results_targetName" placeholder="target name" />
 <input type="submit" id="results_0" value="SBN Ferret Search" />
 </form>
@@ -1257,7 +1257,6 @@ EDIT HISTORY:
 <h2>133P/1996 N2 (Elst-Pizarro&nbsp;1)</h2>
 <ul>
 <li><a href="/holdings/pds4-compil-comet:lightcurves-v1.0/SUPPORT/dataset.shtml">Survey of Comet Lightcurves</a> <code>urn:nasa:pds:compil-comet:lightcurves::1.0</code></li>
-</li>
 </ul>
 
 <!-- Target Data ======================================================== -->
@@ -1676,7 +1675,7 @@ EDIT HISTORY:
 
 <!-- ************************************************** End editing! ************************************************** -->
 <!--#include virtual="/css-n-includes/incl_bottom.inc"-->
-<br />Last updated:
+<br>Last updated:
 <!--#config timefmt="%A %B %d, %Y"-->
 <!--#echo var="LAST_MODIFIED" -->
 </div>
