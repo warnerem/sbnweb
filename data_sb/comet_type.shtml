@@ -19,6 +19,9 @@ ALL of the head, style links, header and menu code is in the include. Edit that 
 <!--
 ===========================================================================
 EDIT HISTORY:
++ 2026-08-11 EMW	(08-12) REXPDS3 to PDS4 conversion per TB email
++ 2026-08-10 EMW	(08-12) LORRI PDS3 to PDS4 conversion per TB email
++ 2026-08-07 EMW	(08-12) SWAP PDS3 to PDS4 conversion per TB email
 + 2026-07-15 EMW	(07-14) MVIC PDS3 to PDS4 migration per TB email
 + 2026-06-26 EMW	NH migration tweaks per TB email
 + 2026-06-25 EMW	NH migration per TB email
@@ -330,15 +333,7 @@ EDIT HISTORY:
 <li><a href="/holdings/pds4-gbo-c2012_s1_ison:hfosc_solar-analog-v1.0/SUPPORT/dataset.shtml">Comet ISON 2014 Solar Analog Spectroscopy Collection</a> <code>urn:nasa:pds:gbo-c2012_s1_ison:hfosc_solar-analog::1.0</code></li>
 
 <li><a href="/holdings/pds4-nh_leisa-v3.1/SUPPORT/dataset.shtml">New Horizons LEISA Data Archive v3.1</a> <code>urn:nasa:pds:nh_leisa::3.1</code></li>
-<li><a href="/holdings/pds4-nh_lorri-v3.0/SUPPORT/dataset.shtml">New Horizons LORRI Data Archive v3.0</a> <code>urn:nasa:pds:nh_lorri::3.0</code></li>
-<li><a href="/holdings/nh-x-lorri-2-launch-v3.0/dataset.shtml">New Horizons LORRI Post-Launch Checkout Raw Data v3.0</a></li><!-- NH-X-LORRI-2-LAUNCH-V3.0 -->
-<li><a href="/holdings/nh-x-lorri-3-launch-v3.0/dataset.shtml">New Horizons LORRI Post-Launch Checkout Calibrated Data v3.0</a></li><!-- NH-X-LORRI-3-LAUNCH-V3.0 -->
-<li><a href="/holdings/nh-j-lorri-2-jupiter-v3.0/dataset.shtml">New Horizons LORRI Jupiter Encounter Raw Data v3.0</a></li><!-- NH-J-LORRI-2-JUPITER-V3.0 -->
-<li><a href="/holdings/nh-j-lorri-3-jupiter-v3.0/dataset.shtml">New Horizons LORRI Jupiter Encounter Calibrated Data v3.0</a></li><!-- NH-J-LORRI-3-JUPITER-V3.0 -->
-<li><a href="/holdings/nh-x-lorri-2-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-LORRI-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-kemcruise1-v2.0/dataset.shtml">New Horizons LORRI KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-2-plutocruise-v2.0/dataset.shtml">New Horizons LORRI Pluto Cruise Raw Data v2.0</a></li><!-- NH-X-LORRI-2-PLUTOCRUISE-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-plutocruise-v2.0/dataset.shtml">New Horizons LORRI Pluto Cruise Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-PLUTOCRUISE-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri-v4.0/SUPPORT/dataset.shtml">New Horizons LORRI Data Archive v4.0</a> <code>urn:nasa:pds:nh_lorri::4.0</code></li>
 <li><a href="/holdings/pds4-nh_mvic-v4.0/SUPPORT/dataset.shtml">New Horizons MVIC Data Archive v4.0</a> <code>urn:nasa:pds:nh_mvic::4.0</code></li>
 
 <li><a href="/holdings/pds4-nh_derived:plutosystem_composition-v1.0/SUPPORT/dataset.shtml">New Horizons Encounter with the Pluto System: Global Color Maps, Image Cubes, and Absorption Band Maps from the LEISA and MVIC Instruments</a> <code>urn:nasa:pds:nh_derived:plutosystem_composition::1.0</code></li>
@@ -503,13 +498,7 @@ EDIT HISTORY:
 
 <li><a href="/holdings/pds4-nh_pepssi-v4.0/SUPPORT/dataset.shtml">New Horizons PEPSSI Data Archive v4.0</a> <code>urn:nasa:pds:nh_pepssi::4.0</code></li>
 <li><a href="/holdings/pds4-nh_sdc-v4.0/SUPPORT/dataset.shtml">New Horizons SDC Data Archive v4.0</a> <code>urn:nasa:pds:nh_sdc::4.0</code></li>
-<li><a href="/holdings/pds4-nh_swap-v3.0/SUPPORT/dataset.shtml">New Horizons SWAP Data Archive v3.0</a> <code>urn:nasa:pds:nh_swap::3.0</code></li>
-<li><a href="/holdings/nh-j-swap-2-jupiter-v3.0/dataset.shtml">New Horizons SWAP Jupiter Encounter Raw Data v3.0</a></li><!-- NH-J-SWAP-2-JUPITER-V3.0 -->
-<li><a href="/holdings/nh-j-swap-3-jupiter-v3.0/dataset.shtml">New Horizons SWAP Jupiter Encounter Calibrated Data v3.0</a></li><!-- NH-J-SWAP-3-JUPITER-V3.0 -->
-<li><a href="/holdings/nh-x-swap-2-plutocruise-v2.0/dataset.shtml">New Horizons SWAP Pluto Cruise Raw Data v2.0</a></li><!-- NH-X-SWAP-2-PLUTOCRUISE-V2.0 -->
-<li><a href="/holdings/nh-x-swap-3-plutocruise-v2.0/dataset.shtml">New Horizons SWAP Pluto Cruise Calibrated Data v2.0</a></li><!-- NH-X-SWAP-3-PLUTOCRUISE-V2.0 -->
-<li><a href="/holdings/nh-x-swap-2-kemcruise1-v2.0/dataset.shtml">New Horizons SWAP KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-SWAP-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-swap-3-kemcruise1-v2.0/dataset.shtml">New Horizons SWAP KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-SWAP-3-KEMCRUISE1-V2.0 -->
+<li><a href="/holdings/pds4-nh_swap-v4.0/SUPPORT/dataset.shtml">New Horizons SWAP Data Archive v4.0</a> <code>urn:nasa:pds:nh_swap::4.0</code></li>
 <li><a href="/holdings/pds4-nh_derived:plutosystem_solar_wind-v1.0/SUPPORT/dataset.shtml">New Horizons Encounter with the Pluto System: Solar Wind Parameters from SWAP Observations</a> <code>urn:nasa:pds:nh_derived:plutosystem_solar_wind::1.0</code></li>
 <li><a href="/holdings/pds4-nh_derived:oss_plasma_fluxes-v1.0/SUPPORT/dataset.shtml">New Horizons Primary and Extended Mission in the Outer Solar System: Averaged Energetic Particle Flux Rates and Counts-per-Second from PEPSSI Observations, 2012-2020</a> <code>urn:nasa:pds:nh_derived:oss_plasma_fluxes::1.0</code></li>
 <li><a href="/holdings/pds4-nh_derived:ipm_solar_wind-v1.0/SUPPORT/dataset.shtml">New Horizons Primary and Extended Missions: Solar Wind Parameters</a> <code>urn:nasa:pds:nh_derived:ipm_solar_wind::1.0</code></li>
@@ -1081,15 +1070,8 @@ EDIT HISTORY:
 <li><a href="/holdings/gio-c-gre-3-rdr-halley-v1.0/dataset.shtml">Giotto Radio Science Experiment Observations of Comet Halley</a></li>
 <li><a href="/holdings/gio-c-gre-3-rdr-grigg-skjell-v1.0/dataset.shtml">Giotto Radio Science Experiment Observations of Comet 26P/Grigg-Skjellerup</a></li>
 
-<li><a href="/holdings/nh-x-rex-2-launch-v2.0/dataset.shtml">New Horizons REX Post-Launch Checkout Raw Data v2.0</a></li><!-- NH-X-REX-2-LAUNCH-V2.0 -->
-<li><a href="/holdings/nh-x-rex-3-launch-v1.0/dataset.shtml">New Horizons REX Post-Launch Checkout Calibrated Data</a></li><!-- NH-X-REX-3-LAUNCH-V1.0 -->
-<li><a href="/holdings/nh-j-rex-2-jupiter-v2.0/dataset.shtml">New Horizons REX Jupiter Encounter Raw Data v2.0</a></li><!-- NH-J-REX-2-JUPITER-V2.0 -->
-<li><a href="/holdings/nh-j-rex-3-jupiter-v1.0/dataset.shtml">New Horizons REX Jupiter Encounter Calibrated Data</a></li><!-- NH-J-REX-3-JUPITER-V1.0 -->
-<li><a href="/holdings/nh-x-rex-2-plutocruise-v2.0/dataset.shtml">New Horizons REX Pluto Cruise Raw Data v2.0</a></li><!-- NH-X-REX-2-PLUTOCRUISE-V2.0 -->
-<li><a href="/holdings/nh-x-rex-3-plutocruise-v1.0/dataset.shtml">New Horizons REX Pluto Cruise Calibrated Data</a></li><!-- NH-X-REX-3-PLUTOCRUISE-V1.0 -->
-<li><a href="/holdings/nh-x-rex-2-kemcruise1-v2.0/dataset.shtml">New Horizons REX KEM Cruise 1 Raw Data v2.0</a></li><!-- NH-X-REX-2-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/nh-x-rex-3-kemcruise1-v2.0/dataset.shtml">New Horizons REX KEM Cruise 1 Calibrated Data v2.0</a></li><!-- NH-X-REX-3-KEMCRUISE1-V2.0 -->
-<li><a href="/holdings/pds4-nh_rex-v3.0/SUPPORT/dataset.shtml">New Horizons REX Data Archive v3.0</a> <code>urn:nasa:pds:nh_rex::3.0</code></li>
+
+<li><a href="/holdings/pds4-nh_rex-v4.0/SUPPORT/dataset.shtml">New Horizons REX Data Archive v4.0</a> <code>urn:nasa:pds:nh_rex::4.0</code></li>
 
 <li><em>Please refer to <a href="/data_sb/missions/rosetta/index_RSI.shtml">Rosetta RSI</a> for a complete listing of RSI datasets.</em></li>
 <li><a href="/holdings/ro_rl-cal-consert-2-grndbench-v1.0/dataset.shtml">Rosetta-Orbiter/Lander CONSERT Laboratory Ground Benchmark Raw Data</a></li><!-- RO/RL-CAL-CONSERT-2-GRNDBENCH-V1.0 -->

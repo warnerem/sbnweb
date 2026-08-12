@@ -35,6 +35,9 @@ ALL of the head, style links, header and menu code is in the include. Edit that 
 <!--
 ===========================================================================
 EDIT HISTORY:
++ 2026-08-11 EMW	(08-12) REXPDS3 to PDS4 conversion per TB email
++ 2026-08-10 EMW	(08-12) LORRI PDS3 to PDS4 conversion per TB email
++ 2026-08-07 EMW	(08-12) SWAP PDS3 to PDS4 conversion per TB email
 + 2026-07-15 EMW	(07-14) MVIC PDS3 to PDS4 migration per TB email
 + 2026-06-25 EMW	NH migration per TB email
 + 2026-06-17 EMW	Alice migration
@@ -123,18 +126,19 @@ EDIT HISTORY:
 <li><a href="/holdings/pds4-nh_leisa:launch_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LEISA Post-Launch Check Raw Data</a> <code>urn:nasa:pds:nh_leisa:launch_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_leisa:launch_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LEISA Post-Launch Check Calibrated Data</a> <code>urn:nasa:pds:nh_leisa:launch_cal::1.0</code></li>
 
-<li><a href="/holdings/nh-x-lorri-2-launch-v3.0/dataset.shtml">New Horizons LORRI Post-Launch Checkout Raw Data v3.0</a></li><!-- NH-X-LORRI-2-LAUNCH-V3.0 -->
-<li><a href="/holdings/nh-x-lorri-3-launch-v3.0/dataset.shtml">New Horizons LORRI Post-Launch Checkout Calibrated Data v3.0</a></li><!-- NH-X-LORRI-3-LAUNCH-V3.0 -->
+<li><a href="/holdings/pds4-nh_lorri:launch_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Post-Launch Checkout Raw Data</a> <code>urn:nasa:pds:nh_lorri:launch_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:launch_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Post-Launch Checkout Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:launch_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_mvic:launch_raw-v1.0/SUPPORT/dataset.shtml">New Horizons MVIC Post-Launch Raw Data</a> <code>urn:nasa:pds:nh_mvic:launch_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_mvic:launch_cal-v1.0/SUPPORT/dataset.shtml">New Horizons MVIC Post-Launch Partially Processed Data</a> <code>urn:nasa:pds:nh_mvic:launch_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_pepssi:launch_raw-v1.0/SUPPORT/dataset.shtml">New Horizons PEPSSI Post-Launch Raw Data</a> <code>urn:nasa:pds:nh_pepssi:launch_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_pepssi:launch_cal-v1.0/SUPPORT/dataset.shtml">New Horizons PEPSSI Post-Launch Calibrated Data</a> <code>urn:nasa:pds:nh_pepssi:launch_cal::1.0</code></li>
-<li><a href="/holdings/nh-x-rex-2-launch-v2.0/dataset.shtml">New Horizons REX Post-Launch Checkout Raw Data v2.0</a></li><!-- NH-X-REX-2-LAUNCH-V2.0 -->
-<li><a href="/holdings/nh-x-rex-3-launch-v1.0/dataset.shtml">New Horizons REX Post-Launch Checkout Calibrated Data</a></li><!-- NH-X-REX-3-LAUNCH-V1.0 -->
+<li><a href="/holdings/pds4-nh_rex:launch_raw-v1.0/SUPPORT/dataset.shtml">New Horizons REX Post-Launch Checkout Raw Data</a> <code>urn:nasa:pds:nh_rex:launch_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_rex:launch_cal-v1.0/SUPPORT/dataset.shtml">New Horizons REX Post-Launch Checkout Calibrated Data</a> <code>urn:nasa:pds:nh_rex:launch_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_sdc:launch_raw-v1.0/SUPPORT/dataset.shtml">New Horizons SDC Post-Launch Checkout Raw Data</a> <code>urn:nasa:pds:nh_sdc:launch_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_sdc:launch_cal-v1.0/SUPPORT/dataset.shtml">New Horizons SDC Post-Launch Checkout Calibrated Data</a> <code>urn:nasa:pds:nh_sdc:launch_cal::1.0</code></li>
-<li><a href="/holdings/nh-x-swap-2-launch-v2.0/dataset.shtml">New Horizons SWAP Post-Launch Checkout v2.0 - Raw</a></li>
-<li><a href="/holdings/nh-x-swap-3-launch-v2.0/dataset.shtml">New Horizons SWAP Post-Launch Checkout v2.0 - Calibrated</a></li>
+<li><a href="/holdings/pds4-nh_swap:launch_raw-v1.0/SUPPORT/dataset.shtml">New Horizons SWAP Post-Launch Checkout Raw Data</a> <code>urn:nasa:pds:nh_swap:launch_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_swap:launch_cal-v1.0/SUPPORT/dataset.shtml">New Horizons SWAP Post-Launch Checkout Calibrated Data</a> <code>urn:nasa:pds:nh_swap:launch_cal::1.0</code></li>
+
 </ul>
 
 <h3>Jupiter Flyby</h3>
@@ -143,18 +147,19 @@ EDIT HISTORY:
 <li><a href="/holdings/pds4-nh_alice:jupiter_cal-v1.0/SUPPORT/dataset.shtml">New Horizons Alice Jupiter Encounter Calibrated Data</a> <code>urn:nasa:pds:nh_alice:jupiter_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_leisa:jupiter_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LEISA Jupiter Encounter Raw Data</a> <code>urn:nasa:pds:nh_leisa:jupiter_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_leisa:jupiter_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LEISA Jupiter Encounter Calibrated Data</a> <code>urn:nasa:pds:nh_leisa:jupiter_cal::1.0</code></li>
-<li><a href="/holdings/nh-j-lorri-2-jupiter-v3.0/dataset.shtml">New Horizons LORRI Jupiter Encounter Raw Data v3.0</a></li><!-- NH-J-LORRI-2-JUPITER-V3.0 -->
-<li><a href="/holdings/nh-j-lorri-3-jupiter-v3.0/dataset.shtml">New Horizons LORRI Jupiter Encounter Calibrated Data v3.0</a></li><!-- NH-J-LORRI-3-JUPITER-V3.0 -->
+<li><a href="/holdings/pds4-nh_lorri:jupiter_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Jupiter Encounter Raw Data</a> <code>urn:nasa:pds:nh_lorri:jupiter_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:jupiter_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Jupiter Encounter Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:jupiter_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_mvic:jupiter_raw-v1.0/SUPPORT/dataset.shtml">New Horizons MVIC Jupiter Encounter Raw Data</a> <code>urn:nasa:pds:nh_mvic:jupiter_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_mvic:jupiter_cal-v1.0/SUPPORT/dataset.shtml">New Horizons MVIC Jupiter Encounter Partially Processed Data</a> <code>urn:nasa:pds:nh_mvic:jupiter_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_pepssi:jupiter_raw-v1.0/SUPPORT/dataset.shtml">New Horizons PEPSSI Jupiter Encounter Raw Data</a> <code>urn:nasa:pds:nh_pepssi:jupiter_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_pepssi:jupiter_cal-v1.0/SUPPORT/dataset.shtml">New Horizons PEPSSI Jupiter Encounter Calibrated Data</a> <code>urn:nasa:pds:nh_pepssi:jupiter_cal::1.0</code></li>
-<li><a href="/holdings/nh-j-rex-2-jupiter-v2.0/dataset.shtml">New Horizons REX Jupiter Encounter Raw Data v2.0</a></li><!-- NH-J-REX-2-JUPITER-V2.0 -->
-<li><a href="/holdings/nh-j-rex-3-jupiter-v1.0/dataset.shtml">New Horizons REX Jupiter Encounter Calibrated Data</a></li><!-- NH-J-REX-3-JUPITER-V1.0 -->
+<li><a href="/holdings/pds4-nh_rex:jupiter_raw-v1.0/SUPPORT/dataset.shtml">New Horizons REX Jupiter Encounter Raw Data</a> <code>urn:nasa:pds:nh_rex:jupiter_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_rex:jupiter_cal-v1.0/SUPPORT/dataset.shtml">New Horizons REX Jupiter Encounter Calibrated Data</a> <code>urn:nasa:pds:nh_rex:jupiter_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_sdc:jupiter_raw-v1.0/SUPPORT/dataset.shtml">New Horizons SDC Jupiter Encounter Raw Data</a> <code>urn:nasa:pds:nh_sdc:jupiter_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_sdc:jupiter_cal-v1.0/SUPPORT/dataset.shtml">New Horizons SDC Jupiter Encounter Calibrated Data</a> <code>urn:nasa:pds:nh_sdc:jupiter_cal::1.0</code></li>
-<li><a href="/holdings/nh-j-swap-2-jupiter-v4.0/dataset.shtml">New Horizons SWAP Jupiter Encounter Raw Data v4.0</a></li><!-- NH-J-SWAP-2-JUPITER-V4.0 -->
-<li><a href="/holdings/nh-j-swap-3-jupiter-v4.0/dataset.shtml">New Horizons SWAP Jupiter Encounter Calibrated Data v4.0</a></li><!-- NH-J-SWAP-3-JUPITER-V4.0 -->
+<li><a href="/holdings/pds4-nh_swap:jupiter_raw-v1.0/SUPPORT/dataset.shtml">New Horizons SWAP Jupiter Encounter Raw Data</a> <code>urn:nasa:pds:nh_swap:jupiter_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_swap:jupiter_cal-v1.0/SUPPORT/dataset.shtml">New Horizons SWAP Jupiter Encounter Calibrated Data</a> <code>urn:nasa:pds:nh_swap:jupiter_cal::1.0</code></li>
+<li><a href="/holdings/pds4-nh_swap:jupiter_data_summary_plots-v1.0/SUPPORT/dataset.shtml">New Horizons SWAP Jupiter Encounter Data Summary Plots</a> <code>urn:nasa:pds:nh_swap:jupiter_data_summary_plots::1.0</code></li>
 </ul>
 
 <h3>Pluto Cruise</h3>
@@ -163,18 +168,19 @@ EDIT HISTORY:
 <li><a href="/holdings/pds4-nh_alice:plutocruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons Alice Pluto Cruise Calibrated Data</a> <code>urn:nasa:pds:nh_alice:plutocruise_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_leisa:plutocruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LEISA Pluto Cruise Raw Data</a> <code>urn:nasa:pds:nh_leisa:plutocruise_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_leisa:plutocruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LEISA Pluto Cruise Calibrated Data</a> <code>urn:nasa:pds:nh_leisa:plutocruise_cal::1.0</code></li>
-<li><a href="/holdings/nh-x-lorri-2-plutocruise-v2.0/dataset.shtml">New Horizons LORRI Pluto Cruise Raw Data v2.0</a></li><!-- NH-X-LORRI-2-PLUTOCRUISE-V2.0 -->
-<li><a href="/holdings/nh-x-lorri-3-plutocruise-v2.0/dataset.shtml">New Horizons LORRI Pluto Cruise Calibrated Data v2.0</a></li><!-- NH-X-LORRI-3-PLUTOCRUISE-V2.0 -->
+<li><a href="/holdings/pds4-nh_lorri:plutocruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Cruise Raw Data</a> <code>urn:nasa:pds:nh_lorri:plutocruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_lorri:plutocruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Pluto Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_lorri:plutocruise_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_mvic:plutocruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons MVIC Pluto Cruise Raw Data</a> <code>urn:nasa:pds:nh_mvic:plutocruise_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_mvic:plutocruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons MVIC Pluto Cruise Partially Processed Data</a> <code>urn:nasa:pds:nh_mvic:plutocruise_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_pepssi:plutocruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons PEPSSI Pluto Cruise Raw Data</a> <code>urn:nasa:pds:nh_pepssi:plutocruise_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_pepssi:plutocruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons PEPSSI Pluto Cruise Calibrated Data</a> <code>urn:nasa:pds:nh_pepssi:plutocruise_cal::1.0</code></li>
-<li><a href="/holdings/nh-x-rex-2-plutocruise-v2.0/dataset.shtml">New Horizons REX Pluto Cruise Raw Data v2.0</a></li><!-- NH-X-REX-2-PLUTOCRUISE-V2.0 -->
-<li><a href="/holdings/nh-x-rex-3-plutocruise-v1.0/dataset.shtml">New Horizons REX Pluto Cruise Calibrated Data</a></li><!-- NH-X-REX-3-PLUTOCRUISE-V1.0 -->
+<li><a href="/holdings/pds4-nh_rex:plutocruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons REX Pluto Cruise Raw Data</a> <code>urn:nasa:pds:nh_rex:plutocruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_rex:plutocruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons REX Pluto Cruise Calibrated Data</a> <code>urn:nasa:pds:nh_rex:plutocruise_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_sdc:plutocruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons SDC Pluto Cruise Raw Data</a> <code>urn:nasa:pds:nh_sdc:plutocruise_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_sdc:plutocruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons SDC Pluto Cruise Calibrated Data</a> <code>urn:nasa:pds:nh_sdc:plutocruise_cal::1.0</code></li>
-<li><a href="/holdings/nh-x-swap-2-plutocruise-v3.0/dataset.shtml">New Horizons SWAP Pluto Cruise Raw Data v3.0</a></li><!-- NH-X-SWAP-2-PLUTOCRUISE-V3.0 -->
-<li><a href="/holdings/nh-x-swap-3-plutocruise-v3.0/dataset.shtml">New Horizons SWAP Pluto Cruise Calibrated Data v3.0</a></li><!-- NH-X-SWAP-3-PLUTOCRUISE-V3.0 -->
+<li><a href="/holdings/pds4-nh_swap:plutocruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons SWAP Pluto Cruise Raw Data</a> <code>urn:nasa:pds:nh_swap:plutocruise_raw::1.0</code></li>
+<li><a href="/holdings/pds4-nh_swap:plutocruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons SWAP Pluto Cruise Calibrated Data</a> <code>urn:nasa:pds:nh_swap:plutocruise_cal::1.0</code></li>
+<li><a href="/holdings/pds4-nh_swap:plutocruise_data_summary_plots-v1.0/SUPPORT/dataset.shtml">New Horizons SWAP Pluto Cruise Data Summary Plots</a> <code>urn:nasa:pds:nh_swap:plutocruise_data_summary_plots::1.0</code></li>
 </ul>
 
 <h3>Pluto Encounter</h3>
@@ -208,7 +214,7 @@ EDIT HISTORY:
 <ul>
 <li><a href="https://naif.jpl.nasa.gov/naif/data_archived.html">New Horizons Spice Kernels</a></li><!-- NH-J_P_SS-SPICE-6-V1.0 -->
 <li><a href="/holdings/pds4-nh_derived:ipm_solar_wind-v1.0/SUPPORT/dataset.shtml">New Horizons Primary and Extended Missions: Solar Wind Parameters</a> <code>urn:nasa:pds:nh_derived:ipm_solar_wind::1.0</code></li>
-<li><a href="/holdings/pds4-nh_documents-v5.0/SUPPORT/dataset.shtml">New Horizons Mission Instrument-Specific and Mission-Wide Documents v5.0</a> <code>urn:nasa:pds:nh_documents::5.0</code></li>
+<li><a href="/holdings/pds4-nh_documents-v5.1/SUPPORT/dataset.shtml">New Horizons Mission Instrument-Specific and Mission-Wide Documents v5.1</a> <code>urn:nasa:pds:nh_documents::5.1</code></li>
 <li><a href="/holdings/pds4-nh_alice:calibration_files-v2.0/SUPPORT/dataset.shtml">New Horizons Alice Reference Files Used in Calibrating Data v2.0</a> <code>urn:nasa:pds:nh_alice:calibration_files::2.0</code></li>
 <li><a href="/holdings/pds4-nh_lorri:calibration_files-v1.0/SUPPORT/dataset.shtml">New Horizons LORRI Reference Files Used in Calibrating Data</a> <code>urn:nasa:pds:nh_lorri:calibration_files::1.0</code></li>
 <li><a href="/holdings/pds4-nh_leisa:calibration_files-v1.0/SUPPORT/dataset.shtml">New Horizons LEISA Reference Files Used in Calibrating Data</a> <code>urn:nasa:pds:nh_leisa:calibration_files::1.0</code></li>
