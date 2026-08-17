@@ -23,6 +23,7 @@ ALL of the head, style links, header and menu code is in the include. Edit that 
 <!--
 ===========================================================================
 EDIT HISTORY:
++ 2026-08-17 EMW	added missing REX TNF
 + 2026-08-11 EMW	(08-12) REXPDS3 to PDS4 conversion per TB email
 + 2026-08-10 EMW	(08-12) LORRI PDS3 to PDS4 conversion per TB email
 + 2026-08-07 EMW	(08-12) SWAP PDS3 to PDS4 conversion per TB email
@@ -241,6 +242,7 @@ EDIT HISTORY:
 <li><a href="/holdings/pds4-nh_rex:jupiter_cal-v1.0/SUPPORT/dataset.shtml">New Horizons REX Jupiter Encounter Calibrated Data</a> <code>urn:nasa:pds:nh_rex:jupiter_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_rex:plutocruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons REX Pluto Cruise Raw Data</a> <code>urn:nasa:pds:nh_rex:plutocruise_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_rex:plutocruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons REX Pluto Cruise Calibrated Data</a> <code>urn:nasa:pds:nh_rex:plutocruise_cal::1.0</code></li>
+<li><a href="/holdings/pds4-nh_rex:plutocruise_tnf-v1.0/SUPPORT/dataset.shtml">New Horizons REX Pluto Cruise Tracking and Navigation Files</a> <code>urn:nasa:pds:nh_rex:plutocruise_tnf::1.0</code></li>
 
 <li><a href="/holdings/pds4-nh_rex:pluto_raw-v1.0/SUPPORT/dataset.shtml">New Horizons REX Pluto Encounter Raw Data</a> <code>urn:nasa:pds:nh_rex:pluto_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_rex:pluto_cal-v1.0/SUPPORT/dataset.shtml">New Horizons REX Pluto Encounter Calibrated Data</a> <code>urn:nasa:pds:nh_rex:pluto_cal::1.0</code></li>

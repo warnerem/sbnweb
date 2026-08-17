@@ -34,6 +34,7 @@ ALL of the head, style links, header and menu code is in the include. Edit that 
 <!--
 ===========================================================================
 EDIT HISTORY:
++ 2026-08-17 EMW	added missing REX TNF
 + 2026-08-11 EMW	(08-12) REXPDS3 to PDS4 conversion per TB email
 + 2026-08-10 EMW	(08-12) LORRI PDS3 to PDS4 conversion per TB email
 + 2026-08-07 EMW	(08-12) SWAP PDS3 to PDS4 conversion per TB email
@@ -115,6 +116,7 @@ EDIT HISTORY:
 <li><a href="/holdings/pds4-nh_pepssi:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons PEPSSI KEM1 Cruise Calibrated Data</a> <code>urn:nasa:pds:nh_pepssi:kem1cruise_cal::1.0</code></li>
 <li><a href="/holdings/pds4-nh_rex:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons REX KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_rex:kem1cruise_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_rex:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons REX KEM1 Cruise Calibrated Data</a> <code>urn:nasa:pds:nh_rex:kem1cruise_cal::1.0</code></li>
+<li><a href="/holdings/pds4-nh_rex:kem1cruise_tnf-v1.0/SUPPORT/dataset.shtml">New Horizons REX KEM1 Cruise Tracking and Navigation Files</a> <code>urn:nasa:pds:nh_rex:kem1cruise_tnf::1.0</code></li>
 <li><a href="/holdings/pds4-nh_sdc:kem1cruise_raw-v1.0/SUPPORT/dataset.shtml">New Horizons SDC KEM1 Cruise Raw Data</a> <code>urn:nasa:pds:nh_sdc:kem1cruise_raw::1.0</code></li>
 <li><a href="/holdings/pds4-nh_sdc:kem1cruise_cal-v1.0/SUPPORT/dataset.shtml">New Horizons SDC KEM1 Cruise Calibrated Data</a> <code>urn:nasa:pds:nh_sdc:kem1cruise_cal::1.0</code></li>
 
